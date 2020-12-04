@@ -1,6 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
+
+
+
+
 /* GET users listing. */
 // '/users' + '/'
 router.get('/', function(req, res, next) {
@@ -18,6 +22,7 @@ router.get('/name', function(req, res, next) {
   // }, 5000)
 
 });
+
 
 router.get('/name/:id/:name', function(req, res, next) {
   // console.log(req.query);
