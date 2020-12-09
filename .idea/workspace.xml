@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3600c39-37b7-4ad2-a52f-e286bd956f43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606869773144</updated>
       <workItem from="1606869774278" duration="3024000" />
-      <workItem from="1607040795791" duration="4819000" />
+      <workItem from="1607040795791" duration="5494000" />
+      <workItem from="1607473995977" duration="2242000" />
     </task>
     <servers />
   </component>

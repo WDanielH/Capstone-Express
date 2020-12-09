@@ -11,7 +11,45 @@ var router = express.Router();
 
 const models = require('../models');
 
-console.log(models.Dog)
+
+
+router.get('/questions', async function(req, res, next) {
+    let questions = await models.Question.findAll();
+    res.json(questions);
+});
+
+router.post('/questions', async function(req, res, next) {
+    console.log(req.body);
+    let question = await models.Question.create({
+        questionText: req.body.questionText,
+        answerOne: req.body.answerOne,
+        answerTwo: req.body.answerTwo,
+        answerThree: req.body.answerThree,
+        answerFour: req.body.answerFour,
+    });
+    res.json(question);
+});
+
+router.get('/question/:id', async function(req, res, next) {
+    let question = await models.Question.findOne({where: {id: req.params.id}});
+    res.json(question);
+});
+
+router.put('/question/:id', async function(req, res, next) {
+    let question = await models.Question.update(req.body, {where: {id: req.params.id}});
+    res.json(question);
+});
+
+router.delete('/questions/:id', async function(req, res, next) {
+    const question = await models.Question.destroy({where: {id: req.params.id}});
+    res.json(question);
+});
+
+
+
+
+
+
 
 router.get('/dogs', async function(req, res, next) {
 
