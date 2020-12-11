@@ -26,6 +26,7 @@ router.post('/questions', async function(req, res, next) {
         answerTwo: req.body.answerTwo,
         answerThree: req.body.answerThree,
         answerFour: req.body.answerFour,
+        category: req.body.category,
     });
     res.json(question);
 });

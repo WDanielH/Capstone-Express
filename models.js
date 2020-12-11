@@ -63,6 +63,10 @@ Question.init({
     answerFour: {
         type: 'LONGTEXT',
         // allowNull: false
+    },
+    category: {
+        type: DataTypes.STRING,
+        // allowNull: false
     }
 }, {
     // Other model options go here
