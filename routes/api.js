@@ -42,8 +42,10 @@ router.put('/question/:id', async function(req, res, next) {
 });
 
 router.delete('/questions/:id', async function(req, res, next) {
-    const question = await models.Question.destroy({where: {id: req.params.id}});
+    console.log("deleted")
+    let question = await models.Question.destroy({where: {id: req.params.id}});
     res.json(question);
+   
 });
 
 
