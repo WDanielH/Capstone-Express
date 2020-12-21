@@ -1,0 +1,4 @@
+This is the readme for the express app. 
+
+You may have to change  the following line in db.js to reflect your password for Mysql 
+const sequelize = new Sequelize('mysql://root:W@rbear1!@localhost/express-example', {logging: false});
